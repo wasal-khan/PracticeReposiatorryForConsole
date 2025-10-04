@@ -37,6 +37,8 @@ public class StudentRepository
     public Student GetStudent(int id)
     {
         return students.FirstOrDefault(s => s.Id == id);
+        Console.WriteLine($"please enter your name ");
+
     }
     public List<Student> GetAllStudents()
     {
