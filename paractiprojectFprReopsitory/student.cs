@@ -38,6 +38,7 @@ public class StudentRepository
     {
         return students.FirstOrDefault(s => s.Id == id);
         Console.WriteLine($"please enter your name ");
+        Console.WriteLine($"please enter your name1 ");
 
     }
     public List<Student> GetAllStudents()
