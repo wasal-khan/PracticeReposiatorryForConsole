@@ -39,6 +39,7 @@ public class StudentRepository
     }
     public List<Student> GetAllStudents()
     {
+        Console.WriteLine("This is a test repository for Paracti Project");
         return students;
     }
     public List<Student> GetAllStudentss()
