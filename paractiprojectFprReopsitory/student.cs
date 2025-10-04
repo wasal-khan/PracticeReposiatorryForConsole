@@ -30,12 +30,15 @@ public class StudentRepository
         var student = students.FirstOrDefault(s => s.Id == id);
         if (student != null)
         {
+             Console.WriteLine(student.Name);
             students.Remove(student);
         }
     }
     public Student GetStudent(int id)
     {
         return students.FirstOrDefault(s => s.Id == id);
+  
+
     }
     public List<Student> GetAllStudents()
     {
