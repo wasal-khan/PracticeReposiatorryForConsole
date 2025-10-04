@@ -10,5 +10,6 @@ namespace paractiprojectFprReopsitory
     {
         public int Name { get; set; }
         public int Id { get; set; }
+        public int Age { get; set; }
     }
 }
