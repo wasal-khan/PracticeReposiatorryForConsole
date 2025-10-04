@@ -41,4 +41,8 @@ public class StudentRepository
     {
         return students;
     }
+    public List<Student> GetAllStudentss()
+    {
+        return students;
+    }
 }
