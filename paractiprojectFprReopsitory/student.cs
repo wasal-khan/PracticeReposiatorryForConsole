@@ -30,6 +30,7 @@ public class StudentRepository
         var student = students.FirstOrDefault(s => s.Id == id);
         if (student != null)
         {
+             Console.WriteLine(student.Name);
             students.Remove(student);
         }
     }
